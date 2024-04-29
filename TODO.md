@@ -59,17 +59,17 @@ Refer to mastodon changelog and API docs for details when implementing, add or m
   * [ ] [POST /api/v1/admin/accounts/:id/unsuspend HTTP/1.1](https://docs.joinmastodon.org/methods/admin/accounts/#unsuspend) 4.0.0 - support custom roles and permissions
   * [ ] [POST /api/v1/admin/accounts/:id/unsensitive HTTP/1.1](https://docs.joinmastodon.org/methods/admin/accounts/#unsensitive) 4.0.0 - support custom roles and permissions
   * [ ] [GET /api/v1/admin/canonical_email_blocks HTTP/1.1](https://docs.joinmastodon.org/methods/admin/canonical_email_blocks/#get) 4.0.0 - added
-  * [ ] [GET /api/v1/admin/canonical_email_blocks/:id HTTP/1.1](GET /api/v1/admin/canonical_email_blocks/:id HTTP/1.1) 4.0.0 - added
+  * [ ] [GET /api/v1/admin/canonical_email_blocks/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/canonical_email_blocks/#get-one) 4.0.0 - added
   * [ ] [POST /api/v1/admin/canonical_email_blocks/test HTTP/1.1](https://docs.joinmastodon.org/methods/admin/canonical_email_blocks/#test) 4.0.0 - added
-  * [ ] [POST /api/v1/admin/canonical_email_blocks HTTP/1.1](POST /api/v1/admin/canonical_email_blocks HTTP/1.1) 4.0.0 - added
-  * [ ] [DELETE /api/v1/admin/canonical_email_blocks/:id HTTP/1.1](DELETE /api/v1/admin/canonical_email_blocks/:id HTTP/1.1) 4.0.0 - added
+  * [ ] [POST /api/v1/admin/canonical_email_blocks HTTP/1.1](https://docs.joinmastodon.org/methods/admin/canonical_email_blocks/#create) 4.0.0 - added
+  * [ ] [DELETE /api/v1/admin/canonical_email_blocks/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/canonical_email_blocks/#get-one) 4.0.0 - added
   * [ ] [POST /api/v1/admin/dimensions HTTP/1.1](https://docs.joinmastodon.org/methods/admin/dimensions/#get) 4.0.0 - support custom roles and permissions
   * [ ] [GET /api/v1/admin/domain_allows HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_allows/#get) 4.0.0 - added
-  * [ ] [GET /api/v1/admin/domain_allows/:id HTTP/1.1](GET /api/v1/admin/domain_allows/:id HTTP/1.1) 4.0.0 - added
+  * [ ] [GET /api/v1/admin/domain_allows/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_allows/#get-one) 4.0.0 - added
   * [ ] [POST /api/v1/admin/domain_allows HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_allows/#create) 4.0.0 - added
   * [ ] [DELETE /api/v1/admin/domain_allows/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_allows/#delete) 4.0.0 - added
-  * [ ] [GET /api/v1/admin/domain_blocks HTTP/1.1](4.0.0 - added) 4.0.0 - added
-  * [ ] [GET /api/v1/admin/domain_blocks/:id HTTP/1.1](GET /api/v1/admin/domain_blocks/:id HTTP/1.1) 4.0.0 - added
+  * [ ] [GET /api/v1/admin/domain_blocks HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_blocks/#get) 4.0.0 - added
+  * [ ] [GET /api/v1/admin/domain_blocks/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_blocks/#get-one) 4.0.0 - added
   * [ ] [POST /api/v1/admin/domain_blocks HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_blocks/#create) 4.0.0 - added
   * [ ] [PUT /api/v1/admin/domain_blocks/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_blocks/#update) 4.0.0 - added 
   * [ ] [DELETE /api/v1/admin/domain_blocks/:id HTTP/1.1](https://docs.joinmastodon.org/methods/admin/domain_blocks/#delete) 4.0.0 - added
@@ -85,7 +85,7 @@ Refer to mastodon changelog and API docs for details when implementing, add or m
   * [ ] [POST /api/v1/admin/measures HTTP/1.1](https://docs.joinmastodon.org/methods/admin/measures/#get) 4.0.0 - support custom roles and permissions
   * [ ] [/api/v1/admin/reports HTTP/1.1](https://docs.joinmastodon.org/methods/admin/reports/) 4.0.0 - support custom roles and permissions
   * [ ] [POST /api/v1/admin/retention HTTP/1.1](https://docs.joinmastodon.org/methods/admin/retention/#create) 4.0.0 - support custom roles and permissions
-  * [ ] [GET /api/v1/admin/trends/tags HTTP/1.1](GET /api/v1/admin/trends/tags HTTP/1.1) 4.0.0 - Returns an array of Tag due to a bug, 4.1.0 - Bug fixed
+  * [ ] [GET /api/v1/admin/trends/tags HTTP/1.1](https://docs.joinmastodon.org/methods/admin/trends/#tags) 4.0.0 - Returns an array of Tag due to a bug, 4.1.0 - Bug fixed
 
 General improvements that would be good to do before doing another release
 --------------------------------------------------------------------------
