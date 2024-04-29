@@ -5,6 +5,7 @@ Refer to mastodon changelog and API docs for details when implementing, add or m
 4.0.0 and beyond
 ----------------
 * [ ] Document all the endpoints we need to add
+<<<<<<< HEAD
   * [ ] [PATCH /api/v1/accounts/update_credentials HTTP/1.1](https://docs.joinmastodon.org/methods/accounts/#update_credentials) 4.1.0 - added hide_collections parameter, 4.2.0 - added indexable parameter
   * [ ] [GET /api/v1/accounts/:id/followers HTTP/1.1](https://docs.joinmastodon.org/methods/accounts/#followers) 4.0.0 - no longer requires an app token + read:accounts
   * [ ] [GET /api/v1/accounts/:id/following HTTP/1.1](https://docs.joinmastodon.org/methods/accounts/#following) 4.0.0 - no longer requires an app token + read:accounts
@@ -86,6 +87,8 @@ Refer to mastodon changelog and API docs for details when implementing, add or m
   * [ ] [/api/v1/admin/reports HTTP/1.1](https://docs.joinmastodon.org/methods/admin/reports/) 4.0.0 - support custom roles and permissions
   * [ ] [POST /api/v1/admin/retention HTTP/1.1](https://docs.joinmastodon.org/methods/admin/retention/#create) 4.0.0 - support custom roles and permissions
   * [ ] [GET /api/v1/admin/trends/tags HTTP/1.1](GET /api/v1/admin/trends/tags HTTP/1.1) 4.0.0 - Returns an array of Tag due to a bug, 4.1.0 - Bug fixed
+=======
+>>>>>>> parent of bc03077 (adding endpoints to TODO that need updating)
 
 General improvements that would be good to do before doing another release
 --------------------------------------------------------------------------
